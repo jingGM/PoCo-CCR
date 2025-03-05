@@ -18,7 +18,7 @@
 
 
 >  [[PoCo PDF]](https://arxiv.org/pdf/2404.02885) [[CSCPR PDF]](https://arxiv.org/pdf/2407.17457)
->  [[PoCo Video]](https://youtu.be/D8dObAeMiCw) [[CSCPR Video]](https://youtu.be/DcXVHMpL4oQ?si=Ey5jeSMXcAdiKcAU) 
+>  [[PoCo Video]](https://youtu.be/D8dObAeMiCw) [[CSCPR Video]](https://youtu.be/mZ_LSmXJ-HU?si=HxR5czD1zRxzsjAG) 
 >  [[Project]](https://github.com/jingGM/PoCo-CCR.git)
 
 ## Getting Started
