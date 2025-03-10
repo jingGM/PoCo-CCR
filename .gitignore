@@ -1,0 +1,13 @@
+.idea/*
+*/.idea/*
+
+build/*
+*/build/*
+
+__pycache__/*
+vg.egg-info/*
+
+debug/*
+
+./results/*
+results/*
