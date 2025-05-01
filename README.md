@@ -22,6 +22,7 @@
 >  [[Project]](https://github.com/jingGM/PoCo-CCR.git)
 
 ## Getting Started
+
 ### Environment
 ```
 conda create -n pr python=3.10
@@ -31,7 +32,6 @@ pip install -r requirements.txt
 mim install mmcv
 conda install -c pytorch/label/nightly -c nvidia faiss-gpu
 
-# MinkLoc
 # check cuda first, make sure the system cuda is the same as pytorch
 import torch
 print(torch.cuda.is_available())
@@ -49,7 +49,7 @@ conda install -c conda-forge libstdcxx-ng
 
 ### Dataset
 - [x] ARKit
-- [x] ScanNet-V2
+- [ ] ScanNet-V2: because of the license constraint, we cannot release the ScanNetIPR
 
 #### You can either download [ScanNetIPR]() and [ARKitIPR]() or prepare the dataset by yourself by the following steps:
 1. Download the datasets:
@@ -101,7 +101,6 @@ python evaluation.py --data_root="Data Root/ScanNetIPR" --instance_size=20 --mod
 python evaluation.py --data_root="/media/jing/data_4tb_2/ARKitIPR" --instance_size=20 --model_type=2 --snapshot="ARKit_models/stage2.tar" --name="arkit_stage2"
 ```
 
-
 ## Bibtex
 
 If this work is helpful for your research, please cite the following BibTeX entry.
@@ -124,6 +123,7 @@ If this work is helpful for your research, please cite the following BibTeX entr
   publisher={IEEE}
 }
 ```
+
 
 ## Acknowledgement
 

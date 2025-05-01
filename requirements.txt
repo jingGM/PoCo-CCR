@@ -18,3 +18,15 @@ scikit-learn
 open3d
 networkx
 python-papi
+
+ninja
+tqdm
+torchtyping
+linear_attention_transformer
+future_fstrings
+bitarray
+pytorch_metric_learning==1.1.2
+psutil
+kornia==0.6.8
+h5py
+av2
