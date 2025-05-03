@@ -49,7 +49,7 @@ conda install -c conda-forge libstdcxx-ng
 
 ### Dataset
 - [x] ARKit
-- [ ] ScanNet-V2
+- [ ] ScanNet-V2: Because of the license constraint, the ScanNetIPR cannot be released. To generate ScanNetIPR, please process the dataset use the following command lines.
 
 #### You can either download [ARKitIPR](https://drive.google.com/drive/folders/14dn7Sd2W0b1gu8ZYNynzHBizLmmcoYXK?usp=sharing) or prepare the dataset by yourself by the following steps:
 1. Download the datasets:
