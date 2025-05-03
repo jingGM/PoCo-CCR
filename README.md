@@ -49,9 +49,9 @@ conda install -c conda-forge libstdcxx-ng
 
 ### Dataset
 - [x] ARKit
-- [ ] ScanNet-V2: because of the license constraint, we cannot release the ScanNetIPR
+- [ ] ScanNet-V2
 
-#### You can either download [ScanNetIPR]() and [ARKitIPR]() or prepare the dataset by yourself by the following steps:
+#### You can either download [ARKitIPR](https://drive.google.com/drive/folders/14dn7Sd2W0b1gu8ZYNynzHBizLmmcoYXK?usp=sharing) or prepare the dataset by yourself by the following steps:
 1. Download the datasets:
     ```
     python download_datasets/download_scannet.py  --out_dir="DATA ROOT"
@@ -68,7 +68,7 @@ conda install -c conda-forge libstdcxx-ng
     The 5 stages should be executed in sequence.
    
 ## Training
-Download pretrained models for [ScanNetIPR]() and [ARKitIPR]()
+Download pretrained models for [ScanNetIPR](https://drive.google.com/drive/folders/11ZiNjRcaKUh4Sv9XEavLDFQMq_gsyg_1?usp=sharing) and [ARKitIPR](https://drive.google.com/drive/folders/1liGC-WevkKewtp-VMHWyBHu8BBGePv7p?usp=sharing)
 #### 1st stage:
 ```
 python3 -m torch.distributed.launch --nproc_per_node=8 main.py --name="m0_scan"  --training_type=1 --mining_frequency=5 --mining_start=5 --mining_ratio=0.66 --recall_frequency=3 --evaluation_freq=5 --triplet_ratio=100 --circle_ratio=0.01 --model_type=0 --fine_layer=0 --batch_size=2 --neg_num=3 --pos_num=3 --only_load_model --max_iteration=50000 --snapshot="SNAPSHOT" --data_root="SCANNETPR DATA ROOT"
